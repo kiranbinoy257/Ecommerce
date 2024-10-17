@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@100;300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+/* 
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+/* .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+  /* page not found */
+  .bg-gray-200{
+    
+    box-shadow: 0 5px 3px -3px rgb(112, 112, 111);
+    --webkit-box-shadow:solid rgb(133, 134, 132) !important;
+    border-bottom: solid rgb(134, 134, 132) !important;
+  }
+  
+  
+  
+  .pnf{
+    display:flex;
+    min-height:65vh;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pnf-title{
+    font-size: 100px;
+    font-weight: 700;
+  }
+  .pnf-heading{
+    font-weight: 400px;
+    font-size: 20px;
+  }
+  .pnf-btn{
+    color: rgb(253, 253, 253);
+    font-weight: 600;
+    background-color: rgb(2, 107, 46);
+    border: 2px solid rgb(196, 190, 190);
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  /* privacy and policy */
+  /* .text-4xl font-bold text-gray-800 mb-6{
+    font-family: "Poppins", sans-serif;
+    color: rgb(108, 108, 114);
+  } */
